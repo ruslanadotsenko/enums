@@ -9,7 +9,7 @@ public class AppView {
 
     public String getData() {
         scanner.useLocale(Locale.ENGLISH);
-        System.out.print("Enter color: ");
+        System.out.print("Enter one of the colors (RED, YELLOW, GREEN): ");
         return scanner.nextLine().trim().toUpperCase();
     }
 
